@@ -7,7 +7,7 @@ enetinclude_HEADERS = \
 	include/enet/enet.h \
 	include/enet/list.h \
 	include/enet/protocol.h \
-	include/enet/time.h \
+	include/enet/etime.h \
 	include/enet/types.h \
 	include/enet/unix.h \
 	include/enet/utility.h \

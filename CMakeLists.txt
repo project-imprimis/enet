@@ -63,7 +63,7 @@ set(INCLUDE_FILES
     ${INCLUDE_FILES_PREFIX}/enet.h
     ${INCLUDE_FILES_PREFIX}/list.h
     ${INCLUDE_FILES_PREFIX}/protocol.h
-    ${INCLUDE_FILES_PREFIX}/time.h
+    ${INCLUDE_FILES_PREFIX}/etime.h
     ${INCLUDE_FILES_PREFIX}/types.h
     ${INCLUDE_FILES_PREFIX}/unix.h
     ${INCLUDE_FILES_PREFIX}/utility.h
