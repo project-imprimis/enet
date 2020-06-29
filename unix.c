@@ -45,6 +45,11 @@
 #endif
 #endif
 
+/* Avoid collision with sys/socket.h */
+#ifdef _SYS_SOCKET_H
+#define HAS_SOCKLEN_T 1
+#endif
+
 #ifdef HAS_FCNTL
 #include <fcntl.h>
 #endif
