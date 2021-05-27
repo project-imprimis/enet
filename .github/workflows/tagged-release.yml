@@ -12,9 +12,11 @@ jobs:
 
     steps:
     - name: "Build"
+      uses: actions/checkout@v2
       run: make
       
-    - uses: marvinpinto/action-automatic-releases@latest
+    - name: "Deploy"
+      uses: marvinpinto/action-automatic-releases@latest
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
