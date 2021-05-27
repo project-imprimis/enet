@@ -1,4 +1,4 @@
-name: Deploy Enet to release
+name: Build ENet
 
 on:
   push:
