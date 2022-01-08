@@ -15,13 +15,13 @@ extern "C"
 #ifdef _WIN32
 #include "enet/win32.h"
 #else
-#include "unix.h"
+#include "enet/unix.h"
 #endif
 
-#include "types.h"
-#include "protocol.h"
-#include "list.h"
-#include "callbacks.h"
+#include "enet/types.h"
+#include "enet/protocol.h"
+#include "enet/list.h"
+#include "enet/callbacks.h"
 
 #define ENET_VERSION_MAJOR 1
 #define ENET_VERSION_MINOR 3
