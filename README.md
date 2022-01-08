@@ -1,4 +1,4 @@
-# Enet
+# ENet
 Please visit the ENet homepage at http://enet.bespin.org for installation
 and usage instructions.
 
@@ -12,5 +12,3 @@ autoreconf -vfi
 # Compile and install the library
 
 ./configure && make && make install
-
-
